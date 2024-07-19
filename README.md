@@ -78,7 +78,7 @@ myChain.minePendingTransactions(myKey.getPublic('hex'));
 ---
 
 ## 📽 Video tutorial
-This source code comes from [my video series on YouTube](https://www.youtube.com/watch?v=zVqczFZr124&list=PLzvRQMJ9HDiTqZmbtFisdXFxul5k0F-Q4). You can check them here:
+This source code basically comes from [video series on YouTube](https://www.youtube.com/watch?v=zVqczFZr124&list=PLzvRQMJ9HDiTqZmbtFisdXFxul5k0F-Q4). You can check them here:
 
 | Video 1: Simple implementation | Video 2: Adding Proof-of-work |
 :-------------------------:|:-------------------------:
