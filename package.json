@@ -1,0 +1,45 @@
+{
+  "name": "AIBTCcoin",
+  "version": "1.0.1",
+  "description": "Simple Blockchain implementation in Javascript. For educational purposes only.",
+  "keywords": [
+    "blockchain",
+    "transactions",
+    "education"
+  ],
+  "main": "src/blockchain.js",
+  "scripts": {
+    "test": "nyc mocha tests/*.js",
+    "lint": "npm run lint:eslint && npm run lint:prettier",
+    "lint:eslint": "eslint src/** tests/**",
+    "lint:prettier": "prettier src/**/*.js",
+    "coverage": "nyc --reporter=lcov npm run test"
+  },
+  "author": "Xavier Decuyper <hi@AIBTC.be>",
+  "license": "MIT",
+  "repository": "github:AIBTCTutorials/AIBTCCoin",
+  "bugs": {
+    "url": "https://github.com/AIBTCTutorials/AIBTCCoin/issues"
+  },
+  "homepage": "https://github.com/AIBTCTutorials/AIBTCCoin",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "debug": "^4.1.1",
+    "elliptic": "^6.5.4",
+    "express": "^4.18.2",
+    "mysql2": "^3.7.1",
+    "AIBTCcoin": "^1.0.1"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.6",
+    "eslint": "^8.8.0",
+    "eslint-config-standard": "^17.0.0-0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "prettier": "^2.7.1"
+  }
+}
